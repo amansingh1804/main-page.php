@@ -11,7 +11,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-    <title>VIT Online Master's Programs | MBA, MCA & M.Sc Data Science | MegaRyse</title>
+    <title>VIT Online Master's Programs | MBA, MCA & M.Sc Data Science</title>
     <meta name="description" content="Explore UGC-entitled Online Master's Degrees from VIT University (NIRF #10). Discover Online MBA, MCA, and M.Sc. Data Science designed for working professionals." />
 
     <!-- Google Fonts & Tailwind CSS CDN -->
@@ -26,7 +26,7 @@
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <!-- Tailwind Configuration Matching megaryse.com Aesthetics -->
+    <!-- Tailwind Configuration -->
     <script>
         tailwind.config = {
             theme: {
@@ -694,7 +694,7 @@
                     </div>
                     <h3 class="text-sm sm:text-base font-bold text-slate-900 mb-1.5 sm:mb-2">Career Advisory</h3>
                     <p class="text-xs text-slate-600 leading-relaxed">
-                        Benefit from 1-on-1 counseling, profile analysis, resume review, and interview prep supported by MegaRyse.
+                        Benefit from 1-on-1 counseling, profile analysis, resume review, and interview preparation.
                     </p>
                 </div>
             </div>
@@ -711,7 +711,7 @@
                 Still Deciding Which Degree Matches Your Ambitions?
             </h2>
             <p class="text-slate-300 text-xs sm:text-base max-w-2xl mx-auto mb-8 sm:mb-10 leading-relaxed">
-                Connect with our dedicated MegaRyse Career Advisors for free profile evaluation, specialization matching, and step-by-step admission guidance.
+                Connect with our dedicated Career Advisors for free profile evaluation, specialization matching, and step-by-step admission guidance.
             </p>
 
             <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-5 sm:p-8 max-w-2xl mx-auto">
@@ -774,7 +774,6 @@
 
                 <div>
                     <h4 class="text-xs font-bold uppercase tracking-wider text-slate-200 mb-2 sm:mb-3">Contact Information</h4>
-                    <span class="text-xs text-slate-400 block mb-1">Official Outreach Partner:</span>
                     <a href="mailto:careeradvisor@megaryse.com" class="text-xs font-bold text-white hover:text-blue-400 transition block mb-2 break-all sm:break-normal">
                         <i class="fas fa-envelope mr-1.5 text-blue-500"></i> careeradvisor@megaryse.com
                     </a>
@@ -785,15 +784,14 @@
 
             </div>
 
-            <!-- Mandatory Emeritus Partner Enablement Disclaimer (Verbatim Rule) -->
+            <!-- Mandatory Emeritus Policy Directory / Aggregator Disclaimer (Verbatim) -->
             <div class="pt-6 sm:pt-8 text-xs text-slate-500 space-y-4">
-                <div class="bg-slate-900/60 p-3.5 sm:p-4 rounded-xl border border-slate-800/80 leading-relaxed text-[11px] sm:text-xs">
-                    <strong class="text-slate-400 block mb-1">Official Program & Accreditation Disclaimer:</strong>
-                    MegaRyse is an authorized outreach and student enrollment partner for online degree programs offered by Vellore Institute of Technology (VIT) Centre for Distance and Online Education (CDOE). All academic instruction, examinations, grading, and degree conferrals are conducted exclusively by Vellore Institute of Technology. Degrees awarded under the online mode are fully recognized by the University Grants Commission (UGC) and hold equivalent academic standing to on-campus degrees under current UGC regulations.
-                </div>
+                <p class="leading-relaxed text-[11px] sm:text-xs">
+                    <strong>Disclaimer:</strong> We are a listing platform that aggregates and displays information about various institutions and their programs. The program details featured on our website are sourced from the respective institution's official website and brochure. Please note that institutions reserve the right to change program details, including fees, eligibility, and curriculum, at any time. All logos, brand names, and trademarks are the property of their respective owners. These names, logos, and brands are used solely for the purpose of providing relevant information to our visitors and do not imply any affiliation or endorsement.
+                </p>
 
                 <div class="flex flex-col sm:flex-row justify-between items-center text-slate-400 pt-3 border-t border-slate-900/60 gap-2 sm:gap-0 text-center sm:text-left">
-                    <div>&copy; 2026 MegaRyse. All Rights Reserved.</div>
+                    <div>&copy; 2026 All Rights Reserved.</div>
                     <div class="flex gap-4 text-xs">
                         <span>Online Master's Portal</span>
                         <span>•</span>

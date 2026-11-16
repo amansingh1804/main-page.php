@@ -866,7 +866,7 @@
         </div>
     </section>
 
-    <!-- Career Advisor Contact Section (Theme of megaryse.com) -->
+    <!-- Career Advisor Contact Section -->
     <section id="contact" class="py-16 md:py-24 bg-gradient-to-br from-brand-950 via-slate-900 to-blue-950 text-white relative">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-blue-500/20 text-blue-300 border border-blue-400/30 mb-4">
@@ -876,7 +876,7 @@
                 Ready to Become a Certified Data Scientist?
             </h2>
             <p class="text-slate-300 max-w-2xl mx-auto text-sm sm:text-base mb-10">
-                Connect directly with a dedicated MegaRyse Career Advisor for syllabus consultation, prerequisite review, and admission support.
+                Connect directly with a dedicated Career Advisor for syllabus consultation, prerequisite review, and admission support.
             </p>
 
             <div class="bg-white/10 backdrop-blur-md rounded-2xl border border-white/15 p-8 max-w-2xl mx-auto shadow-2xl">
@@ -948,7 +948,6 @@
                     <a href="mailto:careeradvisor@megaryse.com" class="text-xs font-bold text-white hover:text-blue-400 transition block mb-2">
                         <i class="fas fa-envelope mr-1.5 text-blue-500"></i> careeradvisor@megaryse.com
                     </a>
-                    <span class="text-[11px] text-slate-400">Website: https://megaryse.com/</span>
                 </div>
 
             </div>
@@ -959,7 +958,7 @@
                     <strong>Disclaimer:</strong> We are a listing platform that aggregates and displays information about various institutions and their programs. The program details featured on our website are sourced from the respective institution's official website and brochure. Please note that institutions reserve the right to change program details, including fees, eligibility, and curriculum, at any time. All logos, brand names, and trademarks are the property of their respective owners. These names, logos, and brands are used solely for the purpose of providing relevant information to our visitors and do not imply any affiliation or endorsement.
                 </p>
                 <div class="flex flex-col sm:flex-row justify-between items-center text-slate-400 pt-3 border-t border-slate-900/60">
-                    <div>&copy; 2026 MegaRyse. All Rights Reserved.</div>
+                    <div>&copy; 2026 All Rights Reserved.</div>
                     <div class="mt-2 sm:mt-0 flex gap-4 text-xs">
                         <span>Online Degree Information Portal</span>
                         <span>•</span>
