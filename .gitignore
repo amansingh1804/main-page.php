@@ -1,0 +1,10 @@
+# Ignore HTML preview files
+*.html
+preview/
+
+# Ignore documentation PDFs
+*.pdf
+
+# Ignore OS / temp files
+.DS_Store
+Thumbs.db
