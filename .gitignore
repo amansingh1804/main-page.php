@@ -2,9 +2,8 @@
 *.html
 preview/
 
-# Ignore documentation PDFs
+# Ignore Documentation PDFs
 *.pdf
 
-# Ignore OS / temp files
-.DS_Store
-Thumbs.db
+# Ignore duplicate subfolder
+php files/
