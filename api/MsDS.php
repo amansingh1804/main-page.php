@@ -206,7 +206,7 @@
     <div class="bg-gradient-to-r from-brand-950 via-blue-900 to-brand-900 text-white text-[11px] sm:text-xs py-2 px-3 sm:px-4 text-center font-medium border-b border-blue-800/40">
         <span class="inline-flex items-center gap-1.5 sm:gap-2 flex-wrap justify-center">
             <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
-            <span>Admissions Open for 2026 Batch • <span class="hidden xs:inline">UGC-Entitled Data Science Master's • </span></span>
+            <span>Admissions Open • <span class="hidden xs:inline">UGC-Entitled Data Science Master's • </span></span>
             <a href="#form-container" class="DownloadBrochure underline text-blue-200 hover:text-white transition font-semibold">Connect with Career Advisor</a>
         </span>
     </div>

@@ -76,7 +76,7 @@
     <div class="bg-gradient-to-r from-brand-950 via-blue-900 to-brand-900 text-white text-[11px] sm:text-xs py-2 px-3 sm:px-4 text-center font-medium border-b border-blue-800/40">
         <div class="max-w-7xl mx-auto flex items-center justify-center gap-1.5 sm:gap-2 flex-wrap">
             <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
-            <span>Admissions Open 2026 Batch • <span class="hidden xs:inline">UGC-Entitled Master's • </span>NIRF Rank #10 • </span>
+            <span>Admissions Open • <span class="hidden xs:inline">UGC-Entitled Master's • </span>NIRF Rank #10 • </span>
             <a href="mailto:careeradvisor@megaryse.com" class="underline text-blue-200 hover:text-white transition font-semibold truncate max-w-[200px] xs:max-w-none">
                 careeradvisor@megaryse.com
             </a>
@@ -276,7 +276,7 @@
                         <div class="flex items-center justify-between border-b border-white/10 pb-4">
                             <div>
                                 <span class="text-[11px] font-bold uppercase tracking-wider text-blue-300 block">Postgraduate Degrees</span>
-                                <h3 class="text-lg font-bold text-white">Official 2026 Batch</h3>
+                                <h3 class="text-lg font-bold text-white">Online Master's Programs</h3>
                             </div>
                             <span class="px-3 py-1 rounded-full text-xs font-bold bg-emerald-400/20 text-emerald-300 border border-emerald-400/30">
                                 Admissions Open
@@ -759,7 +759,7 @@
                         <i class="fas fa-envelope mr-1.5 text-blue-500"></i> careeradvisor@megaryse.com
                     </a>
                     <span class="text-xs text-slate-500 block leading-tight">
-                        Admissions Open for 2026 Academic Year.
+                        Admissions Open
                     </span>
                 </div>
 
