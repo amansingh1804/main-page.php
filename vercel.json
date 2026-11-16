@@ -10,7 +10,7 @@
       "dest": "/images/$1"
     },
     {
-      "src": "/(MBA|MCA|MsDS|main-page|index)\\.php",
+      "src": "/(MBA|MCA|MsDS|index)\\.php",
       "dest": "/$1.php"
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "src": "/$",
-      "dest": "/main-page.php"
+      "dest": "/index.php"
     },
     {
       "src": "/(.*)",

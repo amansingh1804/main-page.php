@@ -217,7 +217,7 @@
             <div class="flex items-center justify-between h-20 gap-4">
                 <!-- University Logo (VIT Standalone, No Co-branding) -->
                 <div class="flex items-center gap-3 shrink-0">
-                    <a href="main-page.php" title="Back to All Master's Programs" class="flex items-center gap-3 group">
+                    <a href="index.php" title="Back to All Master's Programs" class="flex items-center gap-3 group">
                         <img src="images/vit_logo.png" alt="VIT University" class="h-10 sm:h-12 w-auto object-contain vit-logo transition-transform duration-200 group-hover:scale-[1.02]" />
                     </a>
                     <div class="hidden xl:block border-l border-slate-200 pl-3 py-1">
@@ -228,7 +228,7 @@
 
                 <!-- Desktop Navigation Links (Clean, No Wrapping) -->
                 <nav class="hidden lg:flex items-center gap-5 xl:gap-7 text-xs xl:text-sm font-semibold text-slate-700 whitespace-nowrap">
-                    <a href="main-page.php" class="text-blue-600 hover:text-blue-800 transition whitespace-nowrap font-bold flex items-center gap-1.5"><i class="fas fa-arrow-left text-xs"></i> All Programs</a>
+                    <a href="index.php" class="text-blue-600 hover:text-blue-800 transition whitespace-nowrap font-bold flex items-center gap-1.5"><i class="fas fa-arrow-left text-xs"></i> All Programs</a>
                     <a href="#about" class="hover:text-blue-600 transition whitespace-nowrap">About</a>
                     <a href="#programme" class="hover:text-blue-600 transition whitespace-nowrap">Highlights</a>
                     <a href="#skills" class="hover:text-blue-600 transition whitespace-nowrap">Tech Stack</a>
@@ -253,7 +253,7 @@
         <!-- Mobile Dropdown Navigation Menu -->
         <div id="mobileMenu" class="hidden lg:hidden border-t border-slate-200/80 bg-white/98 backdrop-blur-lg px-4 pt-3 pb-6 shadow-2xl transition-all duration-200">
             <div class="space-y-1 mb-4">
-                <a href="main-page.php" class="mobile-nav-link flex items-center justify-between px-3.5 py-2.5 rounded-xl text-sm font-bold text-blue-700 bg-blue-50 hover:bg-blue-100 transition mb-2">
+                <a href="index.php" class="mobile-nav-link flex items-center justify-between px-3.5 py-2.5 rounded-xl text-sm font-bold text-blue-700 bg-blue-50 hover:bg-blue-100 transition mb-2">
                     <span class="flex items-center gap-2"><i class="fas fa-arrow-left text-xs"></i> All Master's Programs</span>
                     <i class="fas fa-chevron-right text-xs text-blue-400"></i>
                 </a>
@@ -926,7 +926,7 @@
                 <div>
                     <h4 class="text-xs font-bold uppercase tracking-wider text-slate-200 mb-3">Available Programs</h4>
                     <ul class="space-y-2 text-xs">
-                        <li><a href="main-page.php" class="text-slate-300 hover:text-white transition flex items-center gap-1.5"><i class="fas fa-th-large text-blue-400 text-[10px]"></i> All Master's Programs</a></li>
+                        <li><a href="index.php" class="text-slate-300 hover:text-white transition flex items-center gap-1.5"><i class="fas fa-th-large text-blue-400 text-[10px]"></i> All Master's Programs</a></li>
                         <li><a href="MBA.php" id="mbaLink" class="hover:text-white transition">Online MBA (2 Years)</a></li>
                         <li><a href="MCA.php" id="mcaLink" class="hover:text-white transition">Online MCA (2 Years)</a></li>
                         <li><a href="MsDS.php" id="msDsLink" class="text-blue-400 font-semibold hover:underline">Online M.Sc. Data Science</a></li>

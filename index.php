@@ -90,7 +90,7 @@
                 
                 <!-- University Logo (VIT Standalone, No Co-branding) -->
                 <div class="flex items-center gap-2.5 sm:gap-3 shrink-0">
-                    <a href="main-page.php" class="flex items-center gap-2 group">
+                    <a href="index.php" class="flex items-center gap-2 group">
                         <img src="images/vit_logo.png" alt="VIT University" class="h-9 sm:h-12 w-auto object-contain vit-logo transition-transform duration-200 group-hover:scale-[1.02]" />
                     </a>
                     <div class="hidden xl:block border-l border-slate-200 pl-3 py-1">
