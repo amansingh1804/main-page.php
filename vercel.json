@@ -1,6 +1,6 @@
 {
   "functions": {
-    "*.php": {
+    "api/*.php": {
       "runtime": "vercel-php@0.7.3"
     }
   },
@@ -11,27 +11,19 @@
     },
     {
       "src": "/(MBA|MCA|MsDS|index)\\.php",
-      "dest": "/$1.php"
+      "dest": "/api/$1.php"
     },
     {
-      "src": "/MBA",
-      "dest": "/MBA.php"
-    },
-    {
-      "src": "/MCA",
-      "dest": "/MCA.php"
-    },
-    {
-      "src": "/MsDS",
-      "dest": "/MsDS.php"
+      "src": "/(MBA|MCA|MsDS)",
+      "dest": "/api/$1.php"
     },
     {
       "src": "/$",
-      "dest": "/index.php"
+      "dest": "/api/index.php"
     },
     {
       "src": "/(.*)",
-      "dest": "/$1"
+      "dest": "/api/index.php"
     }
   ]
 }
