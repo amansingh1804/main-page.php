@@ -1,0 +1,37 @@
+{
+  "functions": {
+    "*.php": {
+      "runtime": "vercel-php@0.7.3"
+    }
+  },
+  "routes": [
+    {
+      "src": "/images/(.*)",
+      "dest": "/images/$1"
+    },
+    {
+      "src": "/(MBA|MCA|MsDS|main-page|index)\\.php",
+      "dest": "/$1.php"
+    },
+    {
+      "src": "/MBA",
+      "dest": "/MBA.php"
+    },
+    {
+      "src": "/MCA",
+      "dest": "/MCA.php"
+    },
+    {
+      "src": "/MsDS",
+      "dest": "/MsDS.php"
+    },
+    {
+      "src": "/$",
+      "dest": "/main-page.php"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
