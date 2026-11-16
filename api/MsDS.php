@@ -875,32 +875,11 @@
             <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4">
                 Ready to Become a Certified Data Scientist?
             </h2>
-            <p class="text-slate-300 max-w-2xl mx-auto text-sm sm:text-base mb-10">
+            <p class="text-slate-300 max-w-2xl mx-auto text-sm sm:text-base mb-8">
                 Connect directly with a dedicated Career Advisor for syllabus consultation, prerequisite review, and admission support.
             </p>
 
-            <div class="bg-white/10 backdrop-blur-md rounded-2xl border border-white/15 p-8 max-w-2xl mx-auto shadow-2xl">
-                <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
-                    <div class="w-16 h-16 rounded-2xl bg-blue-600 text-white flex items-center justify-center text-3xl shadow-lg shrink-0">
-                        <i class="fas fa-envelope-open-text"></i>
-                    </div>
-                    <div class="text-center sm:text-left">
-                        <span class="text-xs uppercase tracking-wider font-extrabold text-blue-300 block mb-1">Direct Advisory Channel</span>
-                        <a href="mailto:careeradvisor@megaryse.com" class="text-xl sm:text-2xl font-black text-white hover:text-blue-300 underline underline-offset-4 transition block">
-                            careeradvisor@megaryse.com
-                        </a>
-                        <span class="text-xs text-slate-300 block mt-1">Guaranteed response within 24 business hours</span>
-                    </div>
-                </div>
-
-                <!-- Optional Helpline (Shown only when contactNumber is set in JS) -->
-                <div id="helplineBlock" class="hidden mt-6 pt-6 border-t border-white/10 text-center">
-                    <span class="text-xs text-slate-400 block mb-1">Helpline Phone:</span>
-                    <a id="helplineLink" class="text-lg font-bold text-white hover:text-blue-300 transition"></a>
-                </div>
-            </div>
-
-            <div class="mt-6 sm:mt-8 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3">
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3">
                 <button class="DownloadBrochure w-full sm:w-auto px-6 py-3.5 rounded-xl font-bold text-xs sm:text-sm bg-blue-600 hover:bg-blue-700 text-white shadow-lg transition active:scale-[0.98]">
                     <i class="fas fa-file-arrow-down mr-2"></i> Download Full Brochure
                 </button>

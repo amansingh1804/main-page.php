@@ -710,33 +710,14 @@
             <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight mb-3 sm:mb-4">
                 Still Deciding Which Degree Matches Your Ambitions?
             </h2>
-            <p class="text-slate-300 text-xs sm:text-base max-w-2xl mx-auto mb-8 sm:mb-10 leading-relaxed">
+            <p class="text-slate-300 text-xs sm:text-base max-w-2xl mx-auto mb-6 sm:mb-8 leading-relaxed">
                 Connect with our dedicated Career Advisors for free profile evaluation, specialization matching, and step-by-step admission guidance.
             </p>
 
-            <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-5 sm:p-8 max-w-2xl mx-auto">
-                <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
-                    <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-blue-600/30 text-blue-300 flex items-center justify-center text-xl sm:text-2xl shrink-0">
-                        <i class="fas fa-envelope-open-text"></i>
-                    </div>
-                    <div class="text-center sm:text-left">
-                        <span class="text-[11px] sm:text-xs uppercase tracking-wider font-extrabold text-blue-300 block mb-1">Direct Advisory Channel</span>
-                        <a href="mailto:careeradvisor@megaryse.com" class="text-lg sm:text-2xl font-black text-white hover:text-blue-300 underline underline-offset-4 transition block break-all sm:break-normal">
-                            careeradvisor@megaryse.com
-                        </a>
-                        <span class="text-[11px] sm:text-xs text-slate-300 block mt-1">Guaranteed response within 24 business hours</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mt-6 sm:mt-8 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3">
-                <a href="#programs" class="w-full sm:w-auto px-6 sm:px-7 py-3.5 rounded-xl font-bold text-xs sm:text-sm bg-blue-600 hover:bg-blue-700 text-white shadow-lg transition flex items-center justify-center gap-2 active:scale-[0.98]">
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3">
+                <a href="#programs" class="w-full sm:w-auto px-8 py-3.5 rounded-xl font-bold text-xs sm:text-sm bg-blue-600 hover:bg-blue-700 text-white shadow-lg transition flex items-center justify-center gap-2 active:scale-[0.98]">
                     <i class="fas fa-list-check"></i>
                     <span>Select a Degree to Apply</span>
-                </a>
-                <a href="mailto:careeradvisor@megaryse.com" class="w-full sm:w-auto px-6 sm:px-7 py-3.5 rounded-xl font-bold text-xs sm:text-sm bg-white/10 hover:bg-white/20 text-white border border-white/20 transition flex items-center justify-center gap-2 active:scale-[0.98]">
-                    <i class="fas fa-comment-dots text-blue-300"></i>
-                    <span>Email Career Advisor</span>
                 </a>
             </div>
         </div>
