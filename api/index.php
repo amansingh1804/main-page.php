@@ -77,8 +77,8 @@
         <div class="max-w-7xl mx-auto flex items-center justify-center gap-1.5 sm:gap-2 flex-wrap">
             <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
             <span>Admissions Open • <span class="hidden xs:inline">UGC-Entitled Master's • </span>NIRF Rank #10 • </span>
-            <a href="mailto:careeradvisor@megaryse.com" class="underline text-blue-200 hover:text-white transition font-semibold truncate max-w-[200px] xs:max-w-none">
-                careeradvisor@megaryse.com
+            <a href="tel:+918748034720" class="underline text-blue-200 hover:text-white transition font-semibold inline-flex items-center gap-1">
+                <i class="fas fa-phone-alt text-[10px]"></i> +91 87480 34720
             </a>
         </div>
     </div>
@@ -220,9 +220,9 @@
                             <span>Explore All 3 Programs</span>
                             <i class="fas fa-arrow-down ml-2 text-xs transition-transform group-hover:translate-y-1"></i>
                         </a>
-                        <a href="mailto:careeradvisor@megaryse.com" class="w-full sm:w-auto inline-flex items-center justify-center px-5 sm:px-6 py-3.5 sm:py-4 rounded-xl font-bold text-sm sm:text-base text-white bg-white/10 hover:bg-white/20 border border-white/20 transition-all duration-200 active:scale-[0.98]">
-                            <i class="fas fa-comment-dots mr-2 text-blue-300"></i>
-                            <span>Speak to Career Advisor</span>
+                        <a href="tel:+918748034720" class="w-full sm:w-auto inline-flex items-center justify-center px-5 sm:px-6 py-3.5 sm:py-4 rounded-xl font-bold text-sm sm:text-base text-white bg-white/10 hover:bg-white/20 border border-white/20 transition-all duration-200 active:scale-[0.98]">
+                            <i class="fas fa-phone-alt mr-2 text-blue-300"></i>
+                            <span>Call +91 87480 34720</span>
                         </a>
                     </div>
 
@@ -755,8 +755,8 @@
 
                 <div>
                     <h4 class="text-xs font-bold uppercase tracking-wider text-slate-200 mb-2 sm:mb-3">Contact Information</h4>
-                    <a href="mailto:careeradvisor@megaryse.com" class="text-xs font-bold text-white hover:text-blue-400 transition block mb-2 break-all sm:break-normal">
-                        <i class="fas fa-envelope mr-1.5 text-blue-500"></i> careeradvisor@megaryse.com
+                    <a href="tel:+918748034720" class="text-xs font-bold text-white hover:text-blue-400 transition block mb-2">
+                        <i class="fas fa-phone-alt mr-1.5 text-blue-500"></i> +91 87480 34720
                     </a>
                     <span class="text-xs text-slate-500 block leading-tight">
                         Admissions Open

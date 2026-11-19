@@ -183,8 +183,8 @@
         const mbaOnlineUrl = "MBA.php";
         const mcaOnlineUrl = "MCA.php";
         const msDsOnlineUrl = "MsDS.php";
-        const contactNumber = ""; // Add phone number here when available
-        const contactEmail = "careeradvisor@megaryse.com";
+        const contactNumber = "+91 87480 34720";
+        const contactEmail = "";
         const logo = "images/vit_logo.png";
         const campus_image = "images/2.png"; // Unique hero image for MCA
         const brochureURL = "";
@@ -296,10 +296,10 @@
                 </div>
             </div>
 
-            <!-- Direct Career Advisor Mailto on Mobile -->
+            <!-- Direct Career Advisor Contact on Mobile -->
             <div class="mt-4 pt-3 border-t border-slate-100 text-center">
-                <a href="mailto:careeradvisor@megaryse.com" class="text-xs font-bold text-blue-600 hover:underline inline-flex items-center gap-1.5">
-                    <i class="fas fa-envelope"></i> careeradvisor@megaryse.com
+                <a href="tel:+918748034720" class="text-xs font-bold text-blue-600 hover:underline inline-flex items-center gap-1.5">
+                    <i class="fas fa-phone-alt"></i> +91 87480 34720
                 </a>
             </div>
         </div>
@@ -954,17 +954,17 @@
                 <div>
                     <h4 class="text-xs font-bold uppercase tracking-wider text-slate-200 mb-3">Student Support</h4>
                     <ul class="space-y-2 text-xs">
-                        <li><a href="mailto:careeradvisor@megaryse.com" class="hover:text-white transition">Admission Assistance</a></li>
-                        <li><a href="mailto:careeradvisor@megaryse.com" class="hover:text-white transition">Eligibility Verification</a></li>
-                        <li><a href="mailto:careeradvisor@megaryse.com" class="hover:text-white transition">Technical Career Counseling</a></li>
+                        <li><a href="tel:+918748034720" class="hover:text-white transition">Admission Helpline</a></li>
+                        <li><a href="#admission" class="hover:text-white transition">Eligibility Verification</a></li>
+                        <li><a href="#curriculum" class="hover:text-white transition">Curriculum & Syllabus</a></li>
                     </ul>
                 </div>
 
                 <div>
                     <h4 class="text-xs font-bold uppercase tracking-wider text-slate-200 mb-3">Contact Support</h4>
-                    <p class="text-xs text-slate-400 mb-2">Email for inquiries & syllabus:</p>
-                    <a href="mailto:careeradvisor@megaryse.com" class="text-xs font-bold text-white hover:text-blue-400 transition block mb-2">
-                        <i class="fas fa-envelope mr-1.5 text-blue-500"></i> careeradvisor@megaryse.com
+                    <p class="text-xs text-slate-400 mb-2">Admissions & Inquiries Helpline:</p>
+                    <a href="tel:+918748034720" class="text-xs font-bold text-white hover:text-blue-400 transition block mb-2">
+                        <i class="fas fa-phone-alt mr-1.5 text-blue-500"></i> +91 87480 34720
                     </a>
                 </div>
 
