@@ -28,7 +28,6 @@
         } else {
             $formData = [
                 "fullName" => $fullname,
-                "fullname" => $fullname,
                 "email" => $email,
                 "phone" => $phone,
                 "educationLevel" => $educationLevel,
@@ -64,39 +63,80 @@
             "leadSubSourceData" => "Web - Organic",
         ]);
 
-        $ch = curl_init();
+        $body = null;
+        $httpCode = 0;
+        $curlError = null;
 
-        curl_setopt_array($ch, [
-            CURLOPT_URL => $apiUrl,
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_POST => true,
-            CURLOPT_POSTFIELDS => json_encode($payload),
-            CURLOPT_HTTPHEADER => [
-                "Content-Type: application/json",
-                "Accept: application/json",
-            ],
-            CURLOPT_TIMEOUT => 30,
-            CURLOPT_SSL_VERIFYPEER => true,
-            CURLOPT_HEADER => true,
-        ]);
+        // Attempt 1: cURL with explicit HTTP/1.1, no Expect header, and browser User-Agent
+        if (function_exists('curl_init')) {
+            $ch = curl_init();
+            curl_setopt_array($ch, [
+                CURLOPT_URL => $apiUrl,
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_POST => true,
+                CURLOPT_POSTFIELDS => json_encode($payload),
+                CURLOPT_HTTPHEADER => [
+                    "Content-Type: application/json",
+                    "Accept: application/json",
+                    "Expect:",
+                    "Connection: close",
+                ],
+                CURLOPT_USERAGENT => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+                CURLOPT_TIMEOUT => 25,
+                CURLOPT_SSL_VERIFYPEER => true,
+                CURLOPT_HEADER => true,
+            ]);
 
-        $response = curl_exec($ch);
+            $response = curl_exec($ch);
 
-        if (curl_errno($ch)) {
-            $error = [
-                "error" => true,
-                "message" => "API Connection Error: " . curl_error($ch),
-                "referenceNumber" => null,
-            ];
+            if (!curl_errno($ch)) {
+                $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                $headerSize = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
+                $body = substr($response, $headerSize);
+            } else {
+                $curlError = curl_error($ch);
+            }
             curl_close($ch);
-            return $error;
         }
 
-        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        $headerSize = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
-        $body = substr($response, $headerSize);
+        // Attempt 2: Fallback to PHP native streams if cURL fails or suffers socket reset
+        if ($body === null) {
+            $streamOpts = [
+                'http' => [
+                    'method' => 'POST',
+                    'header' => "Content-Type: application/json\r\n" .
+                                "Accept: application/json\r\n" .
+                                "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n" .
+                                "Connection: close\r\n",
+                    'content' => json_encode($payload),
+                    'timeout' => 25,
+                    'ignore_errors' => true,
+                ],
+                'ssl' => [
+                    'verify_peer' => true,
+                    'verify_peer_name' => true,
+                ],
+            ];
+            $streamContext = stream_context_create($streamOpts);
+            $streamResult = @file_get_contents($apiUrl, false, $streamContext);
 
-        curl_close($ch);
+            if ($streamResult !== false) {
+                $body = $streamResult;
+                $httpCode = 200;
+                if (isset($http_response_header) && !empty($http_response_header)) {
+                    if (preg_match('/HTTP\/\d\.\d\s+(\d+)/', $http_response_header[0], $m)) {
+                        $httpCode = intval($m[1]);
+                    }
+                }
+            } else {
+                return [
+                    "error" => true,
+                    "message" => "API Connection Error: " . ($curlError ?: "Unable to connect to lead service."),
+                    "referenceNumber" => null,
+                ];
+            }
+        }
 
         $result = [
             "error" => false,
@@ -122,7 +162,12 @@
             }
         } elseif ($httpCode == 400 || $httpCode == 401) {
             $result["error"] = true;
-            $result["message"] = "Client input is incorrect. Connect to System Admin [ER-000" . $httpCode . "].";
+            $errorResponse = json_decode($body, true);
+            if (json_last_error() === JSON_ERROR_NONE && !empty($errorResponse["message"])) {
+                $result["message"] = $errorResponse["message"];
+            } else {
+                $result["message"] = "Client input is incorrect. Connect to System Admin [ER-000" . $httpCode . "].";
+            }
         } else {
             $result["error"] = true;
             $result["message"] = "API returned HTTP status: " . $httpCode;
