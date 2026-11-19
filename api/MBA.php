@@ -189,7 +189,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
     <title>Online MBA | VIT University - UGC Entitled Master's Degree</title>
-    <meta name="description" content="Accelerate your leadership career with VIT University's UGC-entitled Online MBA. 100% online, flexible learning, NIRF #10 ranked university. Speak to a Career Advisor today." />
+    <meta name="description" content="Accelerate your leadership career with VIT University's UGC-entitled Online MBA. 100% online, flexible learning, Top 14 NIRF ranked university. Speak to a Career Advisor today." />
     
     <!-- Fonts & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -364,7 +364,7 @@
                     <!-- Badges Row -->
                     <div class="flex flex-wrap gap-2.5 items-center">
                         <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-amber-400/20 text-amber-300 border border-amber-400/30">
-                            <i class="fas fa-award mr-1.5 text-amber-400"></i> NIRF #10 Overall University
+                            <i class="fas fa-award mr-1.5 text-amber-400"></i> Top 14 NIRF Ranked University
                         </span>
                         <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-emerald-400/20 text-emerald-300 border border-emerald-400/30">
                             <i class="fas fa-certificate mr-1.5 text-emerald-400"></i> NAAC A++ Accredited
@@ -555,6 +555,7 @@
                                         <select id="specialisation" name="specialisation" required
                                             class="w-full pl-9 pr-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm text-slate-900 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition appearance-none">
                                             <option value="">Select Preferred Specialisation</option>
+                                            <option value="Business Analytics">Business Analytics</option>
                                             <option value="marketing">Marketing Management</option>
                                             <option value="hr">Human Resource Management</option>
                                             <option value="finance">Finance Management</option>
@@ -593,8 +594,8 @@
             </p>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 items-center text-center">
                 <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
-                    <span class="text-2xl font-black text-blue-900 block">NIRF #10</span>
-                    <span class="text-xs font-semibold text-slate-700">Ranked #10 University in India (2024)</span>
+                    <span class="text-2xl font-black text-blue-900 block">Top 14</span>
+                    <span class="text-xs font-semibold text-slate-700">Ranked Among Top 14 in India (NIRF)</span>
                 </div>
                 <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
                     <span class="text-2xl font-black text-emerald-800 block">NAAC A++</span>
@@ -665,8 +666,8 @@
                                     <i class="fas fa-trophy"></i>
                                 </div>
                                 <div>
-                                    <div class="text-lg font-black text-slate-900">Top 10</div>
-                                    <div class="text-xs font-semibold text-slate-500">NIRF Ranking 2024 (MoE)</div>
+                                    <div class="text-lg font-black text-slate-900">Top 14</div>
+                                    <div class="text-xs font-semibold text-slate-500">NIRF Ranking (MoE)</div>
                                 </div>
                             </div>
                         </div>
@@ -709,7 +710,7 @@
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-2">Corporate Specialisations</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
-                        Choose high-demand specialization tracks in Marketing, Finance, Human Resources, Operations, or General Management tailored to modern industry requirements.
+                        Choose high-demand specialization tracks in Business Analytics, Marketing, Finance, Human Resources, Operations, or General Management tailored to modern industry requirements.
                     </p>
                 </div>
 
@@ -762,6 +763,20 @@
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 
+                <!-- Business Analytics -->
+                <div class="bg-white rounded-2xl p-6 border border-slate-200/80 shadow-sm hover:shadow-md hover:border-blue-300 transition">
+                    <div class="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-700 flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Business Analytics</h3>
+                    <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4">
+                        Data-driven decision making, predictive modeling, business intelligence, big data visualization, and Python/R for managers.
+                    </p>
+                    <span class="text-xs font-bold text-cyan-700 inline-flex items-center">
+                        Key Roles: Business Analyst, Data Strategy Lead, Analytics Consultant <i class="fas fa-chevron-right ml-1 text-[10px]"></i>
+                    </span>
+                </div>
+
                 <!-- Finance -->
                 <div class="bg-white rounded-2xl p-6 border border-slate-200/80 shadow-sm hover:shadow-md hover:border-blue-300 transition">
                     <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center text-xl mb-4">
@@ -832,22 +847,22 @@
                     </span>
                 </div>
 
-                <!-- Career Advisor Counseling Card -->
-                <div class="bg-gradient-to-br from-blue-900 to-indigo-950 text-white rounded-2xl p-6 flex flex-col justify-between shadow-lg">
-                    <div>
-                        <span class="text-xs font-bold text-blue-300 uppercase tracking-wider block mb-2">Need Guidance?</span>
-                        <h3 class="text-lg font-bold text-white mb-2">Unsure which track fits your profile?</h3>
-                        <p class="text-slate-300 text-xs leading-relaxed">
-                            Our Career Advisors analyze your past experience and career goals to recommend the ideal specialization.
-                        </p>
-                    </div>
-                    <div class="pt-4">
-                        <button type="button" class="DownloadBrochure inline-flex items-center gap-2 text-xs font-bold px-4 py-2.5 bg-white text-blue-900 rounded-xl hover:bg-blue-50 transition cursor-pointer">
-                            <i class="fas fa-comment-dots"></i> Speak with Career Advisor
-                        </button>
-                    </div>
-                </div>
+            </div>
 
+            <!-- Career Advisory Guidance Banner -->
+            <div class="mt-8 bg-gradient-to-r from-blue-900 via-indigo-900 to-brand-950 text-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
+                <div>
+                    <span class="text-xs font-bold text-blue-300 uppercase tracking-wider block mb-1">Need Guidance?</span>
+                    <h3 class="text-lg sm:text-xl font-bold text-white mb-1">Unsure which track fits your profile?</h3>
+                    <p class="text-slate-300 text-xs sm:text-sm">
+                        Our dedicated Career Advisors analyze your past experience and career goals to recommend the ideal specialization.
+                    </p>
+                </div>
+                <div class="shrink-0">
+                    <button type="button" class="DownloadBrochure inline-flex items-center gap-2 text-xs sm:text-sm font-bold px-5 py-3 bg-white text-blue-900 rounded-xl hover:bg-blue-50 transition cursor-pointer shadow-md">
+                        <i class="fas fa-comment-dots text-blue-600"></i> Speak with Career Advisor
+                    </button>
+                </div>
             </div>
         </div>
     </section>
@@ -908,7 +923,7 @@
                     <ul class="space-y-3 text-sm text-slate-700">
                         <li class="flex items-center gap-2"><i class="fas fa-circle-check text-indigo-600 text-xs"></i> Strategic Management & Corporate Governance</li>
                         <li class="flex items-center gap-2"><i class="fas fa-circle-check text-indigo-600 text-xs"></i> Enterprise Systems & Digital Transformation</li>
-                        <li class="flex items-center gap-2"><i class="fas fa-circle-check text-indigo-600 text-xs"></i> Elective Track Subject 1 (Marketing / Finance / HR / Ops)</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-circle-check text-indigo-600 text-xs"></i> Elective Track Subject 1 (Business Analytics / Marketing / Finance / HR / Ops)</li>
                         <li class="flex items-center gap-2"><i class="fas fa-circle-check text-indigo-600 text-xs"></i> Elective Track Subject 2 (Advanced Applications)</li>
                         <li class="flex items-center gap-2"><i class="fas fa-circle-check text-indigo-600 text-xs"></i> Mid-Term Industry Internship / Applied Project</li>
                     </ul>

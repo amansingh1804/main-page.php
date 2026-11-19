@@ -12,7 +12,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
     <title>VIT Online Master's Programs | MBA, MCA & M.Sc Data Science</title>
-    <meta name="description" content="Explore UGC-entitled Online Master's Degrees from VIT University (NIRF #10). Discover Online MBA, MCA, and M.Sc. Data Science designed for working professionals." />
+    <meta name="description" content="Explore UGC-entitled Online Master's Degrees from VIT University (Top 14 NIRF). Discover Online MBA, MCA, and M.Sc. Data Science designed for working professionals." />
 
     <!-- Google Fonts & Tailwind CSS CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -76,7 +76,7 @@
     <div class="bg-gradient-to-r from-brand-950 via-blue-900 to-brand-900 text-white text-[11px] sm:text-xs py-2 px-3 sm:px-4 text-center font-medium border-b border-blue-800/40">
         <div class="max-w-7xl mx-auto flex items-center justify-center gap-1.5 sm:gap-2 flex-wrap">
             <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
-            <span>Admissions Open • <span class="hidden xs:inline">UGC-Entitled Master's • </span>NIRF Rank #10 • </span>
+            <span>Admissions Open • <span class="hidden xs:inline">UGC-Entitled Master's • </span>Top 14 NIRF • </span>
             <a href="tel:+918748034720" class="underline text-blue-200 hover:text-white transition font-semibold inline-flex items-center gap-1">
                 <i class="fas fa-phone-alt text-[10px]"></i> +91 87480 34720
             </a>
@@ -190,7 +190,7 @@
                     <!-- Badges -->
                     <div class="flex flex-wrap items-center justify-center sm:justify-start gap-2">
                         <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] sm:text-xs font-bold bg-blue-500/20 text-blue-300 border border-blue-400/30">
-                            <i class="fas fa-award text-blue-400"></i> NIRF Rank #10
+                            <i class="fas fa-award text-blue-400"></i> Top 14 NIRF
                         </span>
                         <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] sm:text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
                             <i class="fas fa-check-double text-emerald-400"></i> NAAC A++ (3.66/4)
@@ -250,8 +250,8 @@
                     <!-- Trust Stats Bar -->
                     <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-4 pt-5 sm:pt-6 border-t border-white/10 text-center sm:text-left">
                         <div class="p-2.5 sm:p-0 bg-white/5 sm:bg-transparent rounded-xl">
-                            <div class="text-xl sm:text-3xl font-extrabold text-white">#10</div>
-                            <div class="text-[11px] sm:text-xs text-slate-400 font-medium">NIRF Ranking 2024</div>
+                            <div class="text-xl sm:text-3xl font-extrabold text-white">Top 14</div>
+                            <div class="text-[11px] sm:text-xs text-slate-400 font-medium">NIRF Ranking</div>
                         </div>
                         <div class="p-2.5 sm:p-0 bg-white/5 sm:bg-transparent rounded-xl">
                             <div class="text-xl sm:text-3xl font-extrabold text-blue-400">100%</div>
@@ -659,9 +659,9 @@
                     <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center text-lg sm:text-xl mb-3.5 sm:mb-4">
                         <i class="fas fa-award"></i>
                     </div>
-                    <h3 class="text-sm sm:text-base font-bold text-slate-900 mb-1.5 sm:mb-2">NIRF Rank #10</h3>
+                    <h3 class="text-sm sm:text-base font-bold text-slate-900 mb-1.5 sm:mb-2">Top 14 NIRF</h3>
                     <p class="text-xs text-slate-600 leading-relaxed">
-                        Ranked among the top 10 universities in India by NIRF, Ministry of Education, Government of India.
+                        Ranked among the top 14 institutions in India by NIRF, Ministry of Education, Government of India.
                     </p>
                 </div>
 

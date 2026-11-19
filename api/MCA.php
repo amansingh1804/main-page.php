@@ -364,7 +364,7 @@
                     <!-- Badges Row -->
                     <div class="flex flex-wrap gap-2.5 items-center">
                         <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-amber-400/20 text-amber-300 border border-amber-400/30">
-                            <i class="fas fa-award mr-1.5 text-amber-400"></i> NIRF #10 Overall University
+                            <i class="fas fa-award mr-1.5 text-amber-400"></i> Top 14 NIRF Ranked University
                         </span>
                         <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-emerald-400/20 text-emerald-300 border border-emerald-400/30">
                             <i class="fas fa-shield-halved mr-1.5 text-emerald-400"></i> AICTE & UGC Approved
@@ -590,8 +590,8 @@
             </p>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 items-center text-center">
                 <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
-                    <span class="text-2xl font-black text-blue-900 block">NIRF #10</span>
-                    <span class="text-xs font-semibold text-slate-700">Ranked #10 University in India</span>
+                    <span class="text-2xl font-black text-blue-900 block">Top 14</span>
+                    <span class="text-xs font-semibold text-slate-700">Ranked Among Top 14 in India (NIRF)</span>
                 </div>
                 <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
                     <span class="text-2xl font-black text-emerald-800 block">NAAC A++</span>
