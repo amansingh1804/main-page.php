@@ -239,6 +239,24 @@
     <title>Online M.Sc. in Data Science | VIT University - UGC Entitled Master's Degree</title>
     <meta name="description" content="Advance your analytics career with VIT University's Online M.Sc. in Data Science. Master Machine Learning, Big Data, Cloud AI, and Predictive Analytics." />
     
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2388881821850373');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2388881821850373&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    
     <!-- Fonts & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -486,6 +504,15 @@
 
                         <!-- Feedback Message Handling -->
                         <?php if ($success): ?>
+                            <!-- Meta Pixel Lead Event -->
+                            <script>
+                                if (typeof fbq === 'function') {
+                                    fbq('track', 'Lead', {
+                                        content_name: 'VIT Online MSc Data Science',
+                                        status: 'success'
+                                    });
+                                }
+                            </script>
                             <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-6 text-center space-y-3">
                                 <div class="w-14 h-14 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto text-2xl font-bold">
                                     <i class="fas fa-check"></i>
