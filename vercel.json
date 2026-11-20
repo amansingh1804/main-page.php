@@ -14,12 +14,20 @@
       "dest": "/images/$1"
     },
     {
-      "src": "/(MBA|MCA|MsDS|index)\\.php",
-      "dest": "/api/$1.php"
+      "src": "/(vit-online-mba|MBA)(\\.php)?$",
+      "dest": "/api/MBA.php"
     },
     {
-      "src": "/(MBA|MCA|MsDS)",
-      "dest": "/api/$1.php"
+      "src": "/(vit-online-mca|MCA)(\\.php)?$",
+      "dest": "/api/MCA.php"
+    },
+    {
+      "src": "/(vit-online-mcds|vit-online-msds|MsDS)(\\.php)?$",
+      "dest": "/api/MsDS.php"
+    },
+    {
+      "src": "/(vit|index)(\\.php)?$",
+      "dest": "/api/index.php"
     },
     {
       "src": "/$",

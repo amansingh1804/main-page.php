@@ -2,9 +2,9 @@
     // Preserve query parameters across redirects (UTM tracking, partner source)
     $rawQuery = !empty($_SERVER["QUERY_STRING"]) ? $_SERVER["QUERY_STRING"] : "";
     $queryString = $rawQuery ? '?' . htmlspecialchars($rawQuery, ENT_QUOTES, 'UTF-8') : "";
-    $mbaUrl = 'MBA.php' . $queryString;
-    $mcaUrl = 'MCA.php' . $queryString;
-    $msdsUrl = 'MsDS.php' . $queryString;
+    $mbaUrl = 'vit-online-mba.php' . $queryString;
+    $mcaUrl = 'vit-online-mca.php' . $queryString;
+    $msdsUrl = 'vit-online-mcds.php' . $queryString;
 ?>
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth overflow-x-hidden">
@@ -90,7 +90,7 @@
                 
                 <!-- University Logo (VIT Standalone, No Co-branding) -->
                 <div class="flex items-center gap-2.5 sm:gap-3 shrink-0">
-                    <a href="index.php" class="flex items-center gap-2 group">
+                    <a href="vit.php" class="flex items-center gap-2 group">
                         <img src="images/vit_logo.png" alt="VIT University" class="h-9 sm:h-12 w-auto object-contain vit-logo transition-transform duration-200 group-hover:scale-[1.02]" />
                     </a>
                     <div class="hidden xl:block border-l border-slate-200 pl-3 py-1">

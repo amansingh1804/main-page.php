@@ -222,9 +222,9 @@
         }
 
         // Configuration variables as specified in the Landing Page Guide
-        const mbaOnlineUrl = "MBA.php";
-        const mcaOnlineUrl = "MCA.php";
-        const msDsOnlineUrl = "MsDS.php";
+        const mbaOnlineUrl = "vit-online-mba.php";
+        const mcaOnlineUrl = "vit-online-mca.php";
+        const msDsOnlineUrl = "vit-online-mcds.php";
         const contactNumber = "+91 87480 34720";
         const contactEmail = "";
         const logo = "images/vit_logo.png";
@@ -262,7 +262,7 @@
             <div class="flex items-center justify-between h-20 gap-4">
                 <!-- University Logo (VIT Standalone, No Co-branding) -->
                 <div class="flex items-center gap-3 shrink-0">
-                    <a href="index.php" title="Back to All Master's Programs" class="flex items-center gap-3 group">
+                    <a href="vit.php" title="Back to All Master's Programs" class="flex items-center gap-3 group">
                         <img src="images/vit_logo.png" alt="VIT University" class="h-10 sm:h-12 w-auto object-contain vit-logo transition-transform duration-200 group-hover:scale-[1.02]" />
                     </a>
                     <div class="hidden xl:block border-l border-slate-200 pl-3 py-1">
@@ -273,7 +273,7 @@
 
                 <!-- Desktop Navigation Links (Clean, No Wrapping) -->
                 <nav class="hidden lg:flex items-center gap-5 xl:gap-7 text-xs xl:text-sm font-semibold text-slate-700 whitespace-nowrap">
-                    <a href="index.php" class="text-blue-600 hover:text-blue-800 transition whitespace-nowrap font-bold flex items-center gap-1.5"><i class="fas fa-arrow-left text-xs"></i> All Programs</a>
+                    <a href="vit.php" class="text-blue-600 hover:text-blue-800 transition whitespace-nowrap font-bold flex items-center gap-1.5"><i class="fas fa-arrow-left text-xs"></i> All Programs</a>
                     <a href="#about" class="hover:text-blue-600 transition whitespace-nowrap">About</a>
                     <a href="#programme" class="hover:text-blue-600 transition whitespace-nowrap">Highlights</a>
                     <a href="#skills" class="hover:text-blue-600 transition whitespace-nowrap">Tech Stack</a>
@@ -298,7 +298,7 @@
         <!-- Mobile Dropdown Navigation Menu -->
         <div id="mobileMenu" class="hidden lg:hidden border-t border-slate-200/80 bg-white/98 backdrop-blur-lg px-4 pt-3 pb-6 shadow-2xl transition-all duration-200">
             <div class="space-y-1 mb-4">
-                <a href="index.php" class="mobile-nav-link flex items-center justify-between px-3.5 py-2.5 rounded-xl text-sm font-bold text-blue-700 bg-blue-50 hover:bg-blue-100 transition mb-2">
+                <a href="vit.php" class="mobile-nav-link flex items-center justify-between px-3.5 py-2.5 rounded-xl text-sm font-bold text-blue-700 bg-blue-50 hover:bg-blue-100 transition mb-2">
                     <span class="flex items-center gap-2"><i class="fas fa-arrow-left text-xs"></i> All Master's Programs</span>
                     <i class="fas fa-chevron-right text-xs text-blue-400"></i>
                 </a>
@@ -332,9 +332,9 @@
             <div class="pt-3 border-t border-slate-100">
                 <span class="text-[11px] font-bold uppercase tracking-wider text-slate-400 block px-3 mb-2">Switch Online Degree</span>
                 <div class="grid grid-cols-3 gap-2 px-1">
-                    <a href="MBA.php" class="text-center py-2 px-1 rounded-lg text-xs font-bold bg-slate-50 text-slate-700 border border-slate-200 hover:bg-blue-50 hover:text-blue-700">MBA</a>
-                    <a href="MCA.php" class="text-center py-2 px-1 rounded-lg text-xs font-bold bg-slate-50 text-slate-700 border border-slate-200 hover:bg-blue-50 hover:text-blue-700">MCA</a>
-                    <a href="MsDS.php" class="text-center py-2 px-1 rounded-lg text-xs font-bold bg-blue-50 text-blue-700 border border-blue-200">M.Sc. DS</a>
+                    <a href="vit-online-mba.php" class="text-center py-2 px-1 rounded-lg text-xs font-bold bg-slate-50 text-slate-700 border border-slate-200 hover:bg-blue-50 hover:text-blue-700">MBA</a>
+                    <a href="vit-online-mca.php" class="text-center py-2 px-1 rounded-lg text-xs font-bold bg-slate-50 text-slate-700 border border-slate-200 hover:bg-blue-50 hover:text-blue-700">MCA</a>
+                    <a href="vit-online-mcds.php" class="text-center py-2 px-1 rounded-lg text-xs font-bold bg-blue-50 text-blue-700 border border-blue-200">M.Sc. DS</a>
                 </div>
             </div>
 
@@ -950,10 +950,10 @@
                 <div>
                     <h4 class="text-xs font-bold uppercase tracking-wider text-slate-200 mb-3">Available Programs</h4>
                     <ul class="space-y-2 text-xs">
-                        <li><a href="index.php" class="text-slate-300 hover:text-white transition flex items-center gap-1.5"><i class="fas fa-th-large text-blue-400 text-[10px]"></i> All Master's Programs</a></li>
-                        <li><a href="MBA.php" id="mbaLink" class="hover:text-white transition">Online MBA (2 Years)</a></li>
-                        <li><a href="MCA.php" id="mcaLink" class="hover:text-white transition">Online MCA (2 Years)</a></li>
-                        <li><a href="MsDS.php" id="msDsLink" class="text-blue-400 font-semibold hover:underline">Online M.Sc. Data Science</a></li>
+                        <li><a href="vit.php" class="text-slate-300 hover:text-white transition flex items-center gap-1.5"><i class="fas fa-th-large text-blue-400 text-[10px]"></i> All Master's Programs</a></li>
+                        <li><a href="vit-online-mba.php" id="mbaLink" class="hover:text-white transition">Online MBA (2 Years)</a></li>
+                        <li><a href="vit-online-mca.php" id="mcaLink" class="hover:text-white transition">Online MCA (2 Years)</a></li>
+                        <li><a href="vit-online-mcds.php" id="msDsLink" class="text-blue-400 font-semibold hover:underline">Online M.Sc. Data Science</a></li>
                     </ul>
                 </div>
 
