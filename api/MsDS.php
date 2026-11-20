@@ -44,6 +44,16 @@
                 $success = true;
                 $referenceNumber = $apiResponse["referenceNumber"];
             }
+
+            // Sync lead to Google Sheet (non-blocking)
+            $sheetPayload = array_merge($formData, [
+                "program" => "VIT-Data Science",
+                "specialisation" => "Data Science & Machine Learning",
+                "referenceNumber" => $referenceNumber ?? "N/A",
+                "salesforceStatus" => $apiResponse["error"] ? "Error: " . $apiResponse["message"] : "Success",
+                "submittedAt" => date("Y-m-d H:i:s"),
+            ]);
+            syncLeadToGoogleSheet($sheetPayload);
         }
     }
 
@@ -178,6 +188,47 @@
         }
 
         return $result;
+    }
+
+    function syncLeadToGoogleSheet($payload)
+    {
+        // Google Sheet Webhook URL (configured via environment variable or default)
+        $defaultWebhook = "";
+        $webhookUrl = getenv("GOOGLE_SHEET_WEBHOOK_URL") ?: $defaultWebhook;
+
+        if (empty($webhookUrl)) {
+            return;
+        }
+
+        if (function_exists('curl_init')) {
+            $ch = curl_init();
+            curl_setopt_array($ch, [
+                CURLOPT_URL => $webhookUrl,
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_FOLLOWLOCATION => true,
+                CURLOPT_POST => true,
+                CURLOPT_POSTFIELDS => json_encode($payload),
+                CURLOPT_HTTPHEADER => [
+                    "Content-Type: application/json",
+                    "Accept: application/json"
+                ],
+                CURLOPT_TIMEOUT => 5,
+                CURLOPT_SSL_VERIFYPEER => true,
+            ]);
+            @curl_exec($ch);
+            curl_close($ch);
+        } else {
+            $context = stream_context_create([
+                'http' => [
+                    'method'  => 'POST',
+                    'header'  => "Content-Type: application/json\r\nAccept: application/json\r\n",
+                    'content' => json_encode($payload),
+                    'timeout' => 5,
+                    'follow_location' => 1,
+                ]
+            ]);
+            @file_get_contents($webhookUrl, false, $context);
+        }
     }
 ?>
 <!DOCTYPE html>
