@@ -195,7 +195,7 @@
     function syncLeadToGoogleSheet($payload)
     {
         // Google Sheet Webhook URL (configured via environment variable or default)
-        $defaultWebhook = "";
+        $defaultWebhook = "https://script.google.com/macros/s/AKfycbwPqbIXrVXK9a-CNOmPGsd2wd5rh5F-CwRxeT4kQWV0WUd4U3ANUFTHqlMNq3Xd74SbBg/exec";
         $webhookUrl = getenv("GOOGLE_SHEET_WEBHOOK_URL") ?: $defaultWebhook;
 
         if (empty($webhookUrl)) {
