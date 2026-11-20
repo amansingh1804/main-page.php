@@ -443,7 +443,7 @@
                     <!-- Redirect Button to MBA Landing Page (Full-Width on Mobile) -->
                     <div class="pt-3 sm:pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
                         <a href="<?= $mbaUrl ?>" class="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-xl font-bold text-xs sm:text-sm text-white bg-blue-600 hover:bg-blue-700 shadow-lg shadow-blue-600/25 transition-all duration-200 group active:scale-[0.98]">
-                            <span>Explore MBA Landing Page</span>
+                            <span>Explore MBA</span>
                             <i class="fas fa-arrow-right ml-2 text-xs transition-transform group-hover:translate-x-1"></i>
                         </a>
                         <a href="<?= $mbaUrl ?>#curriculum" class="w-full sm:w-auto inline-flex items-center justify-center px-5 py-3.5 rounded-xl font-bold text-xs sm:text-sm text-slate-700 bg-white border border-slate-300 hover:bg-slate-100 transition active:scale-[0.98]">
@@ -516,7 +516,7 @@
                     <!-- Redirect Button to MCA Landing Page (Full-Width on Mobile) -->
                     <div class="pt-3 sm:pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
                         <a href="<?= $mcaUrl ?>" class="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-xl font-bold text-xs sm:text-sm text-white bg-indigo-600 hover:bg-indigo-700 shadow-lg shadow-indigo-600/25 transition-all duration-200 group active:scale-[0.98]">
-                            <span>Explore MCA Landing Page</span>
+                            <span>Explore MCA</span>
                             <i class="fas fa-arrow-right ml-2 text-xs transition-transform group-hover:translate-x-1"></i>
                         </a>
                         <a href="<?= $mcaUrl ?>#curriculum" class="w-full sm:w-auto inline-flex items-center justify-center px-5 py-3.5 rounded-xl font-bold text-xs sm:text-sm text-slate-700 bg-white border border-slate-300 hover:bg-slate-100 transition active:scale-[0.98]">
@@ -625,7 +625,7 @@
                     <!-- Redirect Button to MsDS Landing Page (Full-Width on Mobile) -->
                     <div class="pt-3 sm:pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
                         <a href="<?= $msdsUrl ?>" class="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-xl font-bold text-xs sm:text-sm text-white bg-teal-600 hover:bg-teal-700 shadow-lg shadow-teal-600/25 transition-all duration-200 group active:scale-[0.98]">
-                            <span>Explore M.Sc Data Science Page</span>
+                            <span>Explore M.Sc Data Science</span>
                             <i class="fas fa-arrow-right ml-2 text-xs transition-transform group-hover:translate-x-1"></i>
                         </a>
                         <a href="<?= $msdsUrl ?>#curriculum" class="w-full sm:w-auto inline-flex items-center justify-center px-5 py-3.5 rounded-xl font-bold text-xs sm:text-sm text-slate-700 bg-white border border-slate-300 hover:bg-slate-100 transition active:scale-[0.98]">
